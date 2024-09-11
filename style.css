@@ -1,0 +1,435 @@
+.container {
+    font-family: "DM Sans";
+}
+.nav .nav-item a{
+    color: #262626;
+    font-size: 16px;
+}
+.navbar-image a img {
+    height: 42px;
+    width: 150px;
+}
+.header-section {
+    position: relative;
+    display: flex;
+}
+.header-left-section {
+    background-image: url(images/basketball_sport_icon.png);
+    width: 438px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-left-section img {
+    padding-top: 79px;
+    width: 73%;
+}
+.header-button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #262626;
+    color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+    margin-left: 316px;
+}
+
+.todays-details-1 {
+   background-image: url(images/beautiful-young-african-woman-sports-clothing-running-against-gray-background\ 1.png);
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.todays-details-1-text strong,h5 {
+    position: relative;
+    bottom: -150px;
+}
+.todays-details-1-text strong {
+    opacity: 0.5;
+}
+.todays-details-2 {
+    background-image: url(images/fastaccelerating-race-car-formula-one-racing-amid-sunset-generative-ai\ 1.png);
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+    opacity: 0.7;
+}
+.todays-details-2-text strong,h5 {
+    position: relative;
+    bottom: -150px;
+    color: #000000;
+    padding: 5px;
+}
+.todays-details-2-text strong {
+    opacity: 0.5;
+}
+.header-middle-section {
+    position: relative;
+    left: -300px;
+}
+.header-middle-section img {
+    width: 130%;
+    height: 90%;
+}
+.header-middle-section p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: -155px;
+    margin-left: 270px;
+}
+.header-left-section h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    font-family: 'Sequel';
+    margin-top: 32px;
+    margin-left: 56px;
+}
+.header-right-section {
+    margin-top: 50px;
+    margin-left: -80px;
+}
+.header-right-button a {
+    text-decoration: none;
+    background: #E1E8F0;
+    padding: 6px 10px;
+    color: #fff;
+}
+.header-right-button {
+    margin-bottom: 20px;
+}
+.header-section {
+    background: #eff1f3;
+    width: 100%;
+}
+.category-area .col-md-3 {
+    margin-right: 5px;
+}
+.category-area {
+    margin-bottom: 30px;
+}
+
+.category-area .col-md-3 h2 {
+    text-transform: uppercase;
+    background-color: #EBEEF3;
+    width: 270px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Sequel';
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+.category-area .col-md-3 img {
+    height: 230px;
+    width: 270px;
+}
+.category-area .col-md-3:nth-child(2) h2 {
+    margin-top: 30px;
+    padding: 20px 35px;
+}
+.category-area .col-md-3:nth-child(2) img {
+    height: 200px;
+}
+.category-area .col-md-3:nth-child(4) h2 {
+    margin-top: 30px;
+    padding: 20px 16px;
+}
+.category-area .col-md-3:nth-child(4) img {
+    height: 200px;
+}
+.category-area .col-md-3:nth-child(1) h2, .category-area .col-md-3:nth-child(3) h2 {
+    margin-bottom: 20px;
+}
+.trending-news-area {
+    /* background: #EBEEF3; */
+    padding: 20px;
+}
+.main-tranding-news-area {
+    background-color: #EBEEF3;
+}
+.main-tranding-news-area h3 {
+    padding: 5px 15px;
+}
+.card {
+    background: #EBEEF3;
+}
+
+.card-body p {
+    font-size: 13px;
+    font-family: "DM Sans";
+    opacity: .6;
+}
+
+.card-body h4 {
+    font-size: 15px;
+    margin-top: 6px;
+    font-family: 'Sequel';
+}
+.card-body strong {
+    font-size: 14px;
+    font-family: "DM Sans";
+    opacity: .6;
+}
+.card-body {
+    margin-top: -10px;
+    line-height: 1.2;
+}
+.cycle-area-bg-image {
+    background-image: url(images/sportsman-drinking-water-training-stationary-bike\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.cycle-area-bg-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    z-index: 1;  /* Ensure the overlay is above the background image */
+}
+.cycle-area-bg-image > * {
+    position: relative;
+    z-index: 2;  /* Ensure the content is above the background overlay */
+    color: white;
+}
+.cycle-area-image-text {
+    margin-top: 470px;
+    color: #fff;
+    padding: 10px;
+}
+.cycle-area-image-text p {
+    font-size: 20px;
+}
+.cycle-area-image-text h1 {
+    font-size: 40px;
+    
+}
+.cycle-area-button a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.cycle-area-button {
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.cycle-area-button a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 6px;
+    border-radius: 7px;
+}
+.carousel-image-text span.carousel-button a {
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    margin: 10px 10px 0px 10px;
+}
+.carousel-image-text .carousel-bottom-text {
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    padding-left: 20px;
+    max-width: 700px;
+}
+.carousel-image-text .carousel-bottom-text strong {
+    font-size: 20px;
+}
+.carousel-image-text .carousel-bottom-text h1{
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.carousel-image-text .carousel-bottom-text p{
+    font-size: 18px;
+}
+
+
+.carousel-image img {
+    opacity: .5;
+    background-color: #000;
+}
+.carousel-image {
+    background: black;
+}
+.carousel-inner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.recent-news-1 {
+  background-image: url(images/karate-fighters\ 1.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    width: 270px;
+}
+.recent-news-text {
+    color: #fff;
+    position: absolute;
+    margin-top: 274px;
+    max-width: 270px;
+    background-color: #E0AB57;
+}
+.recent-news-text strong{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.recent-news-text h4{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.recent-news-title {
+    font-size: 26px;
+}
+img.img-fluid.rounded-start {
+    width: 100px;
+}
+.card-body {
+    line-height: 1.2;
+    margin-top: 14px;
+}
+.card-body p {
+    font-size: 8px;
+    font-family: "DM Sans";
+    opacity: .6;
+}
+.card-body h4{
+    font-size: 10px;
+    font-family: 'Sequel';
+    text-transform: uppercase;
+}
+.recent-news-area-2 {
+    background-color: #EBEEF3;
+    padding: 5px;
+}
+img.club-logo {
+    max-width: 35px;
+}
+td {
+    font-size: 20px;
+}
+.recent-news-area-2-button strong a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 70px;
+    padding-top: 2px;
+}
+.table-responsive {
+    margin-left: 4px;
+}
+.sport-button a:hover {
+    background-color: #fff;
+    color: #000;
+}
+.sport-button a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+.sport-button {
+    position: absolute;
+    right: 18px;
+    top: 13px;
+}
+.recent-news {
+    position: absolute;
+}
+.recent-news h3 {
+    margin-top: -49px;
+}
+.jake-will img {
+    height: 30px;
+}
+.sport-article h4 {
+    font-size: 14px;
+    margin-top: 20px;
+    opacity: .6;
+}
+.sport-article {
+    line-height: 1.5;
+}
+.sport-article p {
+    font-size: 15px;
+    margin-top: 14px;
+    opacity: .5;
+}
+.sport-article h3 {
+    font-size: 19px;
+    margin-top: 20px;
+}
+.sport-article {
+    line-height: 1.2;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.sport-article-title {
+    position: absolute;
+}
+.sport-article-title h3 {
+    margin-top: -41px;
+}
+
+.arrow-area ul {
+    position: absolute;
+    left: 0px;
+    bottom: -41px;
+    list-style: none;
+    display: flex;
+}
+.arrow-area ul li a {
+    margin: 5px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 13px;
+}
+.footer-area {
+    background-color:  #EBEEF3;
+}
+h1.newslater-text {
+    font-size: 57px;
+    text-transform: uppercase;
+    margin: 50px 50px 0px 30px;
+    font-family: 'Sequel';
+}
+input.gmail-area {
+    margin: 28px 0 23px 31px;
+}
+input.gmail-area i{
+    font-size: 20px;
+}
+i.fa-solid.fa-square-arrow-up-right {
+    font-size: 22px;
+}
+.footer-image {
+  background-image: url(images/american-football-player-posing-with-ball-white\ 1.png);
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+}
+.footer-area-text {
+    padding-top: 70px;
+}
+.footer-icon i {
+    margin: 15px;
+    font-size: 32px;
+    margin-left: 0px;
+}
+.card-group {
+    position: relative;
+}
